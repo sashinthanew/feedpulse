@@ -36,7 +36,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
 
-# ⚡ FeedPulse — AI-Powered Product Feedback Platform
+#  FeedPulse — AI-Powered Product Feedback Platform
 
 FeedPulse is a full-stack web application that lets teams collect product feedback and uses **Google Gemini AI** to automatically categorise, prioritise, and summarise submissions — giving product teams instant clarity on what to build next.
 
@@ -45,7 +45,7 @@ FeedPulse is a full-stack web application that lets teams collect product feedba
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -57,7 +57,7 @@ FeedPulse is a full-stack web application that lets teams collect product feedba
 
 ---
 
-## 🚀 How to Run Locally
+##  How to Run Locally
 
 ### Prerequisites
 - Node.js 18+
@@ -105,7 +105,7 @@ Frontend runs on `http://localhost:3000`
 
 ---
 
-## 🔑 Environment Variables
+##  Environment Variables
 
 ### Backend (`/backend/.env`)
 | Variable | Description |
@@ -124,7 +124,7 @@ Frontend runs on `http://localhost:3000`
 
 ## 📱 Features
 
-### ✅ Must-Have (All Completed)
+###  Must-Have (All Completed)
 - Public feedback submission form with validation
 - Google Gemini AI auto-analysis (category, sentiment, priority, tags)
 - Protected admin dashboard with JWT auth
@@ -134,7 +134,7 @@ Frontend runs on `http://localhost:3000`
 - Pagination (10 items per page)
 - Consistent REST API responses
 
-### ⭐ Nice-to-Have (Completed)
+###  Nice-to-Have (Completed)
 - Character counter on description field
 - Sort by date, priority
 - Keyword search across title and summary
@@ -143,7 +143,7 @@ Frontend runs on `http://localhost:3000`
 
 ---
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint | Description | Auth |
 |--------|----------|-------------|------|
@@ -155,7 +155,7 @@ Frontend runs on `http://localhost:3000`
 
 ---
 
-## 🗄️ Database Schema
+##  Database Schema
 ```javascript
 Feedback {
   title: String (required, max 120)
@@ -177,7 +177,7 @@ Feedback {
 
 ---
 
-## 🔮 What I Would Build Next
+##  What I Would Build Next
 
 Given more time, I would add:
 - **Real-time updates** using WebSockets — dashboard auto-refreshes when new feedback arrives
@@ -189,7 +189,7 @@ Given more time, I would add:
 
 ---
 
-## 👤 Admin Credentials (Demo)
+##  Admin Credentials (Demo)
 ```
 Email:    admin@feedpulse.com
 Password: admin123
